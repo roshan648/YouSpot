@@ -7,13 +7,13 @@ print('a - video to audio')
 print('v - video')
 action=input('Ender your option a/v:')
 
-if action=='a':
+if action=='v':
  link = input("Enter your link:")
 
  ydl_opts = {}
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
-elif action=='v':
+elif action=='a':
  
  links = input('Enter link:')
  class MyLogger(object):
