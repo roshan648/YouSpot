@@ -9,9 +9,7 @@ if action=='a':
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 elif action=='v':
-    # ydl1.py
- from __future__ import unicode_literals
- import youtube_dl
+ links = input('Enter link:')
  class MyLogger(object):
     def debug(self, msg):
         pass
@@ -39,6 +37,7 @@ elif action=='v':
     'progress_hooks': [my_hook],
  }
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download(['https://www.youtube.com/watch?v=BaW_jenozKc'])
+    ydl.download([links])
+#thats all
     
  
