@@ -17,5 +17,9 @@ cd $HOME
 
 /data/data/com.termux/files/usr/bin/python3 -m pip install --upgrade pip
 
+apt install ffmpeg
+
+pip install ffmpeg
+
 python newfile.py
 
