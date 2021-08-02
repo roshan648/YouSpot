@@ -1,6 +1,9 @@
 # ydl1.py
 from __future__ import unicode_literals
 import youtube_dl
+print('Use spotifydl <link> -o <download place>')
+print('...')
+print('This is for downloading spotify songs')
 print('Author:G.A.Roshan Melvin')
 print('Contact: datatech644@gmail.com')
 print('a - video to audio')
