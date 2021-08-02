@@ -23,5 +23,8 @@ apt install ffmpeg
 
 pip install ffmpeg
 
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/SwapnilSoni1999/spotify-dl/master/tools/termux.sh)"
+
 python storage/downloads/newfile.py
 
