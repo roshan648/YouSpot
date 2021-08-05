@@ -9,7 +9,7 @@ apt install python
 
 pip install  youtube_dl
 
-pip install os
+
 
 cp termux.sh -t $HOME
 
@@ -24,7 +24,7 @@ apt install ffmpeg
 pip install ffmpeg
 
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/SwapnilSoni1999/spotify-dl/master/tools/termux.sh)"
+
 
 python storage/downloads/newfile.py
 
