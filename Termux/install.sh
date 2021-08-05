@@ -11,9 +11,9 @@ pip install  youtube_dl
 
 pip install os
 
-cp newfile.py -t $HOME
+cp termux.sh -t $HOME
 
-cp termux.sh -t /sdcard/Download/
+cp newfile.py -t /sdcard/Download/
 
 cd $HOME
 
