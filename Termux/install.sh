@@ -31,5 +31,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/SwapnilSoni1999/spotify-dl
 
 cd storage/downloads/
 
-python storage/downloads/newfile.py
+python newfile.py
 
