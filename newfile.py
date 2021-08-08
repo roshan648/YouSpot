@@ -1,6 +1,8 @@
 # ydl1.py
 from __future__ import unicode_literals
 import youtube_dl
+import os
+from pathlib import Path
 
 
 print('This is for downloading spotify songs')
@@ -51,10 +53,17 @@ elif action=='a':
     ydl.download([links])
 #thats all
 elif action==s :
+   print('a-For android.')
+   print('l-For linux.')
    action2=input('Enter your option:')
+   if action2== 'a':
+     spotify=input('Enter your spotify link:')
+     print(os.system('spotifydl -o /sdcard/Download/ '+ spotify))
    elif action2== 'l':
      spotify=input('Enter your spotify link:')
      print(os.system('spotifydl -o '+str(Path.home() / "Downloads ") + spotify))
+   else :
+    print("Enter your correct os.")
 else :
  print("Enter correct option")
     
