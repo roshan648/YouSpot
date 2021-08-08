@@ -52,7 +52,7 @@ elif action=='a':
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([links])
 #thats all
-elif action==s :
+elif action=='s' :
    print('a-For android.')
    print('l-For linux.')
    action2=input('Enter your option:')
