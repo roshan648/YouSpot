@@ -1,14 +1,15 @@
 # ydl1.py
 from __future__ import unicode_literals
 import youtube_dl
-print('Use spotifydl <link> -o <download place>')
-print('...')
+
+
 print('This is for downloading spotify songs')
 print('Author:G.A.Roshan Melvin')
 print('Contact: datatech644@gmail.com')
 print('a - video to audio')
 print('v - video')
-action=input('Ender your option a/v:')
+print('s - For downloading spotify songs')
+action=input('Ender your option a/v/s:')
 
 if action=='v':
  link = input("Enter your link:")
@@ -49,6 +50,11 @@ elif action=='a':
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([links])
 #thats all
+elif action==s :
+   action2=input('Enter your option:')
+   elif action2== 'l':
+     spotify=input('Enter your spotify link:')
+     print(os.system('spotifydl -o '+str(Path.home() / "Downloads ") + spotify))
 else :
  print("Enter correct option")
     
