@@ -3,14 +3,22 @@ from __future__ import unicode_literals
 import youtube_dl
 import os
 from pathlib import Path
+print("         __        __                           ________                      __       ")
+print("         \ \      / /                          /       /                     / /     ")
+print("          \ \    / /  ______     _    ___     /  _____/  ________  _______  / /    ")
+print("           \ \  / /  |  __  |   | |  |  _|   /  /____   / ____  / / ___  / / /____  ")
+print("            \ \/ /   | |  | |   | |  | |    /____   /  / /___/ / / /  / / / _____/")
+print("             \  /    | |  | |   | |  | |   _____/  /  /  _____/ / /  / / / /   __  ")
+print("            _/ /     | |__| |_  | |__| |  /       /  /  /      / /__/ / / /___/ /  ")
+print("           |__/      |________|  \___ /  /_______/  /__/      /______/ /_______/       ")
 
-
-print('This is for downloading spotify songs')
 print('Author:G.A.Roshan Melvin')
 print('Contact: datatech644@gmail.com')
-print('a - video to audio')
-print('v - video')
-print('s - For downloading spotify songs')
+print("")
+print("")
+print('                         a - Youtube video to audio.')
+print('                         v - Youtube video.')
+print('                         s - Spotify song downloader.')
 action=input('Ender your option a/v/s:')
 
 if action=='v':
@@ -19,6 +27,7 @@ if action=='v':
  ydl_opts = {}
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
+
 elif action=='a':
  
  links = input('Enter link:')
@@ -52,10 +61,11 @@ elif action=='a':
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([links])
 #thats all
-elif action=='s' :
-   print('a-For android.')
-   print('l-For linux.')
-   action2=input('Enter your option:')
+elif action=='s':
+   print('                         a-For android.')
+   print('                         l-For linux.')
+
+   action2=input('Enter your option:') 
    if action2== 'a':
      spotify=input('Enter your spotify link:')
      print(os.system('spotifydl -o /sdcard/Download/ '+ spotify))
@@ -63,8 +73,7 @@ elif action=='s' :
      spotify=input('Enter your spotify link:')
      print(os.system('spotifydl -o '+str(Path.home() / "Downloads ") + spotify))
    else :
-    print("Enter your correct os.")
+     print('Enter your correct os')
 else :
  print("Enter correct option")
-    
- 
+
