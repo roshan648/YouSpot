@@ -3,14 +3,8 @@ from __future__ import unicode_literals
 import youtube_dl
 import os
 from pathlib import Path
-print("         __        __                           ________                      __       ")
-print("         \ \      / /                          /       /                     / /     ")
-print("          \ \    / /  ______     _    ___     /  _____/  ________  _______  / /    ")
-print("           \ \  / /  |  __  |   | |  |  _|   /  /____   / ____  / / ___  / / /____  ")
-print("            \ \/ /   | |  | |   | |  | |    /____   /  / /___/ / / /  / / / _____/")
-print("             \  /    | |  | |   | |  | |   _____/  /  /  _____/ / /  / / / /   __  ")
-print("            _/ /     | |__| |_  | |__| |  /       /  /  /      / /__/ / / /___/ /  ")
-print("           |__/      |________|  \___ /  /_______/  /__/      /______/ /_______/       ")
+text = 'YouSpot'
+os.system("cfonts "+text+" -f block -c bright_red ")
 
 print('Author:G.A.Roshan Melvin')
 print('Contact: datatech644@gmail.com')
