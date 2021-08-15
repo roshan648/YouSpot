@@ -10,10 +10,10 @@ print('Author:G.A.Roshan Melvin')
 print('Contact: datatech644@gmail.com')
 print("")
 print("")
-print('                         a - Youtube video to audio.')
-print('                         v - Youtube video.')
-print('                         s - Spotify song downloader.')
-action=input('Ender your option a/v/s:')
+print('1 - Youtube video to audio.')
+print('2 - Youtube video.')
+print('3 - Spotify song downloader.')
+action=input('Enter your option :')
 
 if action=='v':
  link = input("Enter your link:")
@@ -24,7 +24,7 @@ if action=='v':
 
 elif action=='a':
  
- links = input('Enter link:')
+ links = input('Enter your audio link:')
  class MyLogger(object):
     def debug(self, msg):
         pass
@@ -56,8 +56,8 @@ elif action=='a':
     ydl.download([links])
 #thats all
 elif action=='s':
-   print('                         a-For android.')
-   print('                         l-For linux.')
+   print('1-For android.')
+   print('2-For linux.')
 
    action2=input('Enter your option:') 
    if action2== 'a':
@@ -70,4 +70,5 @@ elif action=='s':
      print('Enter your correct os')
 else :
  print("Enter correct option")
+ print("""try again by using "bash termux.sh" in termux and "python newfile.py".""")
 
