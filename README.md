@@ -1,4 +1,7 @@
-# simple-youtube-video-downloader
-python newfile.py
-or
-python3 newfile.py
+# YouSpot
+*cd YouSpot/Termux/
+*python
+# for linux and other os
+*python newfile.py
+*or
+*pyhton3 newfile.py
