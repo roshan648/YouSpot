@@ -15,14 +15,14 @@ print('2 - Youtube video.')
 print('3 - Spotify song downloader.')
 action=input('Enter your option :')
 
-if action=='v':
+if action=='2':
  link = input("Enter your link:")
 
  ydl_opts = {}
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 
-elif action=='a':
+elif action=='1':
  
  links = input('Enter your audio link:')
  class MyLogger(object):
@@ -55,15 +55,15 @@ elif action=='a':
  with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([links])
 #thats all
-elif action=='s':
+elif action=='3':
    print('1-For android.')
    print('2-For linux.')
 
    action2=input('Enter your option:') 
-   if action2== 'a':
+   if action2== '1':
      spotify=input('Enter your spotify link:')
      print(os.system('spotifydl -o /sdcard/Download/ '+ spotify))
-   elif action2== 'l':
+   elif action2== '2':
      spotify=input('Enter your spotify link:')
      print(os.system('spotifydl -o '+str(Path.home() / "Downloads ") + spotify))
    else :
