@@ -9,3 +9,6 @@
 *python newfile.py
 *or
 *pyhton3 newfile.py
+*cd Linux
+*bash python.sh
+*bash python3.sh
