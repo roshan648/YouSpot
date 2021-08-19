@@ -9,7 +9,7 @@
 *python newfile.py
 *or
 *pyhton3 newfile.py
-#Installing dependence before running.
+# Installing dependence before running.
 *cd Linux
 *bash python.sh
 *bash python3.sh
