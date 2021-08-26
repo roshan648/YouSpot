@@ -14,7 +14,7 @@ pip3 install  youtube_dl
 
 
 
-cp termux.sh -t $HOME
+cp Cd/Cd/termux.sh -t $HOME
 
 cp newfile.py -t /sdcard/Download/
 
