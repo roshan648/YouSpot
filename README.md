@@ -1,9 +1,10 @@
 # YouSpot
 # For Termux
-*cd YouSpot/Termux/*
-*bash install.sh*
-*cd*
-*#Use "bash termux.sh" when open the termux it will automatically run YouSpot...*
+* cd YouSpot/Termux/*
+* bash python.sh or python3.sh*
+* cd*
+* bash termux.sh*
+* #Use "bash termux.sh" when open the termux it will automatically run YouSpot...*
 # for linux and other os
 *Open file dir using "cd" *
 *python newfile.py*
