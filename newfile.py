@@ -70,5 +70,5 @@ elif action=='3':
      print('Enter your correct os')
 else :
  print("Enter correct option")
- print("""try again by using "bash termux.sh" in termux and "python newfile.py".""")
+ print("""try again by using "bash termux.sh" in termux and "python newfile.py or python3 newfile.py".""")
 
