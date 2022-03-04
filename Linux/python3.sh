@@ -1,5 +1,6 @@
 clear
 cd ..
+sudo -i
 apt update 
 
 pip3 install python-cfonts
