@@ -1,10 +1,10 @@
 clear
 cd ..
-apt update 
+sudo apt update 
 
-pip install python-cfonts
-pip install  youtube_dl  
-apt install ffmpeg
-pip install ffmpeg
-python newfile.py 
+sudo pip install python-cfonts
+sudo pip install  youtube_dl  
+sudo apt install ffmpeg
+sudo pip install ffmpeg
+sudo python newfile.py 
 
