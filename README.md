@@ -1,7 +1,7 @@
 # YouSpot
 # For Termux
 * cd YouSpot/Termux/
-* bash python.sh
+* bash Python.sh
 * cd
 * bash termux.sh
 * Use "bash termux.sh" when open the termux it will automatically run YouSpot...
